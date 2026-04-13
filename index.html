@@ -1019,7 +1019,7 @@ footer{
 .marcas-track-wrap::after{right:0;background:linear-gradient(to left,#160d0c,transparent)}
 .marcas-track{
   display:flex;gap:0;
-  animation:marcasScroll 26s linear infinite;
+  animation:marcasScroll 90s linear infinite;
   width:max-content;padding:8px 0;
 }
 .marcas-track:hover{animation-play-state:paused}
@@ -1031,13 +1031,13 @@ footer{
   padding:0 44px;flex-shrink:0;gap:7px;cursor:default;
 }
 .marca-logo-img{
-  height:36px;width:auto;max-width:120px;object-fit:contain;display:block;
-  filter:brightness(0) invert(1);opacity:.30;
+  height:44px;width:auto;max-width:140px;object-fit:contain;display:block;
+  filter:none;opacity:.75;
   transition:opacity .35s,filter .35s;
 }
 .marca-logo:hover .marca-logo-img{
-  opacity:.92;
-  filter:brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(310deg);
+  opacity:1;
+  filter:brightness(1.1) drop-shadow(0 0 6px rgba(255,255,255,0.2));
 }
 .marca-logo-name{
   font-family:'Barlow Condensed',sans-serif;
@@ -1537,8 +1537,14 @@ section{
   z-index:2;
 }
 .gal-slide.prev{
-  opacity:0.25;
-  z-index:1;
+  opacity:0.35;z-index:1;
+  transform:translateX(-5%) scale(0.96);
+  transition:opacity .7s ease,transform .7s ease;
+}
+.gal-slide.next{
+  opacity:0.35;z-index:1;
+  transform:translateX(5%) scale(0.96);
+  transition:opacity .7s ease,transform .7s ease;
 }
 .gal-slide img{
   width:100%;height:100%;
@@ -2598,200 +2604,710 @@ body::after{display:none !important}
   </div>
   <div class="marcas-track-wrap" aria-label="Marcas aliadas">
     <div class="marcas-track" id="marcasTrack">
-      <div class="marca-logo" title="Coca-Cola">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/cocacola/ffffff"
-             alt="Coca-Cola" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Coca-Cola</span>
+      <div class="marca-logo" title="png clipart johnson johnson logo united states health care ltd angle text">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1dzafLczt0YuW1eJ0rZSm-_THaDp5ohts"
+               alt="png clipart johnson johnson logo united states health care ltd angle text" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">png clipart johnson johnson logo united states health care ltd angle text</span>
+        </div>
+        <span class="marca-logo-name">png clipart johnson johnson logo united states health care ltd angle text</span>
       </div>
-      <span class="marca-logo-name">Coca-Cola</span>
-    </div><div class="marca-logo" title="Pepsi">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/pepsi/ffffff"
-             alt="Pepsi" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Pepsi</span>
+      <div class="marca-logo" title="Galderma logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1IDVNeJSdC8jLL_dWOBr3Vyqp4DgSM1J2"
+               alt="Galderma logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Galderma logo</span>
+        </div>
+        <span class="marca-logo-name">Galderma logo</span>
       </div>
-      <span class="marca-logo-name">Pepsi</span>
-    </div><div class="marca-logo" title="Unilever">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/unilever/ffffff"
-             alt="Unilever" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Unilever</span>
+      <div class="marca-logo" title="alcon logo png seeklogo 6143">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/12bhjC5YVrqviIWf68CO25IGNKCiY2Dp2"
+               alt="alcon logo png seeklogo 6143" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">alcon logo png seeklogo 6143</span>
+        </div>
+        <span class="marca-logo-name">alcon logo png seeklogo 6143</span>
       </div>
-      <span class="marca-logo-name">Unilever</span>
-    </div><div class="marca-logo" title="Nestlé">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/nestle/ffffff"
-             alt="Nestlé" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Nestlé</span>
+      <div class="marca-logo" title="1 Genoma">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/13GZ3FfPbrpFQ0pIgPE2gVvX7AwFocrgS"
+               alt="1 Genoma" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">1 Genoma</span>
+        </div>
+        <span class="marca-logo-name">1 Genoma</span>
       </div>
-      <span class="marca-logo-name">Nestlé</span>
-    </div><div class="marca-logo" title="P&G">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/pg/ffffff"
-             alt="P&G" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">P&G</span>
+      <div class="marca-logo" title="images (2)">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/10Nop5yHNTtjymhukCfSgOfZzQHvlb4yn"
+               alt="images (2)" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">images (2)</span>
+        </div>
+        <span class="marca-logo-name">images (2)</span>
       </div>
-      <span class="marca-logo-name">P&G</span>
-    </div><div class="marca-logo" title="Kellogg's">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/kelloggs/ffffff"
-             alt="Kellogg's" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Kellogg's</span>
+      <div class="marca-logo" title="bsn medical logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/14t5tNt8OGt_xMm3GcJU09XsfoNzDx5hs"
+               alt="bsn medical logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">bsn medical logo</span>
+        </div>
+        <span class="marca-logo-name">bsn medical logo</span>
       </div>
-      <span class="marca-logo-name">Kellogg's</span>
-    </div><div class="marca-logo" title="Samsung">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/samsung/ffffff"
-             alt="Samsung" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Samsung</span>
+      <div class="marca-logo" title="Logo Abbott">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1LtxfiUO6Ubn3X6E9mgs8VTFq64w7Ku0b"
+               alt="Logo Abbott" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Logo Abbott</span>
+        </div>
+        <span class="marca-logo-name">Logo Abbott</span>
       </div>
-      <span class="marca-logo-name">Samsung</span>
-    </div><div class="marca-logo" title="LG">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/lg/ffffff"
-             alt="LG" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">LG</span>
+      <div class="marca-logo" title="images (1)">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1d40dUqWbjNBTw-kKkTho14b3w-5faNRV"
+               alt="images (1)" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">images (1)</span>
+        </div>
+        <span class="marca-logo-name">images (1)</span>
       </div>
-      <span class="marca-logo-name">LG</span>
-    </div><div class="marca-logo" title="Philips">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/philips/ffffff"
-             alt="Philips" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Philips</span>
+      <div class="marca-logo" title="Kimberly Clark">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/12fkPxZrEVYsjNKxpjgKbfmviEIS2Z06M"
+               alt="Kimberly Clark" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Kimberly Clark</span>
+        </div>
+        <span class="marca-logo-name">Kimberly Clark</span>
       </div>
-      <span class="marca-logo-name">Philips</span>
-    </div><div class="marca-logo" title="Henkel">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/henkel/ffffff"
-             alt="Henkel" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Henkel</span>
+      <div class="marca-logo" title="logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1qvYcPiB6cbaYBZbeppBEAgaUpBI8YmaG"
+               alt="logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">logo</span>
+        </div>
+        <span class="marca-logo-name">logo</span>
       </div>
-      <span class="marca-logo-name">Henkel</span>
-    </div><div class="marca-logo" title="Colgate">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/colgate/ffffff"
-             alt="Colgate" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Colgate</span>
+      <div class="marca-logo" title="unilever logo 2004">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1bp5jTv7agMuqbwqGtKFovmHQ7VBY181a"
+               alt="unilever logo 2004" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">unilever logo 2004</span>
+        </div>
+        <span class="marca-logo-name">unilever logo 2004</span>
       </div>
-      <span class="marca-logo-name">Colgate</span>
-    </div><div class="marca-logo" title="Diageo">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/diageo/ffffff"
-             alt="Diageo" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Diageo</span>
+      <div class="marca-logo" title="Colgate Logo 2004">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1VcVgMveyP6NS3ToU92uMTszpulIVd-pP"
+               alt="Colgate Logo 2004" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Colgate Logo 2004</span>
+        </div>
+        <span class="marca-logo-name">Colgate Logo 2004</span>
       </div>
-      <span class="marca-logo-name">Diageo</span>
-    </div>
-      <div class="marca-logo" title="Coca-Cola">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/cocacola/ffffff"
-             alt="Coca-Cola" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Coca-Cola</span>
+      <div class="marca-logo" title="black decker logo png transparent">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1njE2e0xDT1lIgrwPhR9Qv_geiZUJhCbs"
+               alt="black decker logo png transparent" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">black decker logo png transparent</span>
+        </div>
+        <span class="marca-logo-name">black decker logo png transparent</span>
       </div>
-      <span class="marca-logo-name">Coca-Cola</span>
-    </div><div class="marca-logo" title="Pepsi">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/pepsi/ffffff"
-             alt="Pepsi" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Pepsi</span>
+      <div class="marca-logo" title="Cementos Argos logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1Zma8lA3gdPNqbbc9_bTT5JXhCleoI6Sz"
+               alt="Cementos Argos logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Cementos Argos logo</span>
+        </div>
+        <span class="marca-logo-name">Cementos Argos logo</span>
       </div>
-      <span class="marca-logo-name">Pepsi</span>
-    </div><div class="marca-logo" title="Unilever">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/unilever/ffffff"
-             alt="Unilever" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Unilever</span>
+      <div class="marca-logo" title="huawei logo icon 170010">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1FFAitwujhAlkS4gp_RRxPuWrKrTLNu-6"
+               alt="huawei logo icon 170010" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">huawei logo icon 170010</span>
+        </div>
+        <span class="marca-logo-name">huawei logo icon 170010</span>
       </div>
-      <span class="marca-logo-name">Unilever</span>
-    </div><div class="marca-logo" title="Nestlé">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/nestle/ffffff"
-             alt="Nestlé" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Nestlé</span>
+      <div class="marca-logo" title="New Honor logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1K0RUA5yIzvqutG5xqXTGphEGSPnXDhRX"
+               alt="New Honor logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">New Honor logo</span>
+        </div>
+        <span class="marca-logo-name">New Honor logo</span>
       </div>
-      <span class="marca-logo-name">Nestlé</span>
-    </div><div class="marca-logo" title="P&G">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/pg/ffffff"
-             alt="P&G" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">P&G</span>
+      <div class="marca-logo" title="realme logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/14a9mMY9IOypcDkcBJrl3PalpNIMEynCM"
+               alt="realme logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">realme logo</span>
+        </div>
+        <span class="marca-logo-name">realme logo</span>
       </div>
-      <span class="marca-logo-name">P&G</span>
-    </div><div class="marca-logo" title="Kellogg's">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/kelloggs/ffffff"
-             alt="Kellogg's" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Kellogg's</span>
+      <div class="marca-logo" title="Japan Tabaco">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/19uSWSZ_pdv4lwSsmiy7UNbq21jpCBnhN"
+               alt="Japan Tabaco" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Japan Tabaco</span>
+        </div>
+        <span class="marca-logo-name">Japan Tabaco</span>
       </div>
-      <span class="marca-logo-name">Kellogg's</span>
-    </div><div class="marca-logo" title="Samsung">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/samsung/ffffff"
-             alt="Samsung" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Samsung</span>
+      <div class="marca-logo" title="Pernod Ricard Logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1U7TOJoaxTmhUDt_Z7DIUjgZk74IyVNhS"
+               alt="Pernod Ricard Logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Pernod Ricard Logo</span>
+        </div>
+        <span class="marca-logo-name">Pernod Ricard Logo</span>
       </div>
-      <span class="marca-logo-name">Samsung</span>
-    </div><div class="marca-logo" title="LG">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/lg/ffffff"
-             alt="LG" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">LG</span>
+      <div class="marca-logo" title="American Tabaco">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1aRBOUHSgXkY41en7k2VtREctiUrM_0xv"
+               alt="American Tabaco" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">American Tabaco</span>
+        </div>
+        <span class="marca-logo-name">American Tabaco</span>
       </div>
-      <span class="marca-logo-name">LG</span>
-    </div><div class="marca-logo" title="Philips">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/philips/ffffff"
-             alt="Philips" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Philips</span>
+      <div class="marca-logo" title="PHILIP MORRIS">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1Lbh0zotTr04YT323HsLiNBpa0iIl4nrv"
+               alt="PHILIP MORRIS" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">PHILIP MORRIS</span>
+        </div>
+        <span class="marca-logo-name">PHILIP MORRIS</span>
       </div>
-      <span class="marca-logo-name">Philips</span>
-    </div><div class="marca-logo" title="Henkel">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/henkel/ffffff"
-             alt="Henkel" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Henkel</span>
+      <div class="marca-logo" title="LOGOS POSTOBON FINAL 01">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1HMRB5IxSMh0iGodAWTPeszwBKthyrI_D"
+               alt="LOGOS POSTOBON FINAL 01" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">LOGOS POSTOBON FINAL 01</span>
+        </div>
+        <span class="marca-logo-name">LOGOS POSTOBON FINAL 01</span>
       </div>
-      <span class="marca-logo-name">Henkel</span>
-    </div><div class="marca-logo" title="Colgate">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/colgate/ffffff"
-             alt="Colgate" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Colgate</span>
+      <div class="marca-logo" title="central cervecera de colombia logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1bsvoFXKv2liyI6O4vTSnkT_ERWTV6BO-"
+               alt="central cervecera de colombia logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">central cervecera de colombia logo</span>
+        </div>
+        <span class="marca-logo-name">central cervecera de colombia logo</span>
       </div>
-      <span class="marca-logo-name">Colgate</span>
-    </div><div class="marca-logo" title="Diageo">
-      <div class="marca-logo-bg">
-        <img class="marca-logo-img"
-             src="https://cdn.simpleicons.org/diageo/ffffff"
-             alt="Diageo" loading="lazy" width="90" height="32" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="marca-logo-fallback" style="display:none">Diageo</span>
+      <div class="marca-logo" title="ADM">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/183P4qSLX7W1Iiy4PKIIQ9tT_ZkM4yRvo"
+               alt="ADM" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">ADM</span>
+        </div>
+        <span class="marca-logo-name">ADM</span>
       </div>
-      <span class="marca-logo-name">Diageo</span>
-    </div>
+      <div class="marca-logo" title="Alpina">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1jQu6vkekYJybyd-nILzCz3__IT_jvMKs"
+               alt="Alpina" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Alpina</span>
+        </div>
+        <span class="marca-logo-name">Alpina</span>
+      </div>
+      <div class="marca-logo" title="Upfield">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1dLU02qxB9EFz4QMpvd_D4z8PVdnP9Ddz"
+               alt="Upfield" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Upfield</span>
+        </div>
+        <span class="marca-logo-name">Upfield</span>
+      </div>
+      <div class="marca-logo" title="Barilla Logo 2000">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1DAe21RbF0dTswiYtIh_FXydSlnNfcY2U"
+               alt="Barilla Logo 2000" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Barilla Logo 2000</span>
+        </div>
+        <span class="marca-logo-name">Barilla Logo 2000</span>
+      </div>
+      <div class="marca-logo" title="logo soberana">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1wKSr9UEn1crO-7pY7A6nKx3rww5bu23z"
+               alt="logo soberana" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">logo soberana</span>
+        </div>
+        <span class="marca-logo-name">logo soberana</span>
+      </div>
+      <div class="marca-logo" title="Huevos Kikes">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/147VUCV0hGCIguehdtDShfvXVxSNmC_ZE"
+               alt="Huevos Kikes" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Huevos Kikes</span>
+        </div>
+        <span class="marca-logo-name">Huevos Kikes</span>
+      </div>
+      <div class="marca-logo" title="Team Foods">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/15i7T9EvnynwiLCw2f_WcayoUfq_yiGza"
+               alt="Team Foods" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Team Foods</span>
+        </div>
+        <span class="marca-logo-name">Team Foods</span>
+      </div>
+      <div class="marca-logo" title="Alimentos Carnicos">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1wPNMJqhMSnn3KpZeYGrQfoNjCcmCWutE"
+               alt="Alimentos Carnicos" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Alimentos Carnicos</span>
+        </div>
+        <span class="marca-logo-name">Alimentos Carnicos</span>
+      </div>
+      <div class="marca-logo" title="Eficacia">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1tYw8DEeLSXY31bJMIvXtxUFJUaitoFe0"
+               alt="Eficacia" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Eficacia</span>
+        </div>
+        <span class="marca-logo-name">Eficacia</span>
+      </div>
+            <div class="marca-logo" title="png clipart johnson johnson logo united states health care ltd angle text">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1dzafLczt0YuW1eJ0rZSm-_THaDp5ohts"
+               alt="png clipart johnson johnson logo united states health care ltd angle text" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">png clipart johnson johnson logo united states health care ltd angle text</span>
+        </div>
+        <span class="marca-logo-name">png clipart johnson johnson logo united states health care ltd angle text</span>
+      </div>
+      <div class="marca-logo" title="Galderma logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1IDVNeJSdC8jLL_dWOBr3Vyqp4DgSM1J2"
+               alt="Galderma logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Galderma logo</span>
+        </div>
+        <span class="marca-logo-name">Galderma logo</span>
+      </div>
+      <div class="marca-logo" title="alcon logo png seeklogo 6143">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/12bhjC5YVrqviIWf68CO25IGNKCiY2Dp2"
+               alt="alcon logo png seeklogo 6143" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">alcon logo png seeklogo 6143</span>
+        </div>
+        <span class="marca-logo-name">alcon logo png seeklogo 6143</span>
+      </div>
+      <div class="marca-logo" title="1 Genoma">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/13GZ3FfPbrpFQ0pIgPE2gVvX7AwFocrgS"
+               alt="1 Genoma" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">1 Genoma</span>
+        </div>
+        <span class="marca-logo-name">1 Genoma</span>
+      </div>
+      <div class="marca-logo" title="images (2)">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/10Nop5yHNTtjymhukCfSgOfZzQHvlb4yn"
+               alt="images (2)" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">images (2)</span>
+        </div>
+        <span class="marca-logo-name">images (2)</span>
+      </div>
+      <div class="marca-logo" title="bsn medical logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/14t5tNt8OGt_xMm3GcJU09XsfoNzDx5hs"
+               alt="bsn medical logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">bsn medical logo</span>
+        </div>
+        <span class="marca-logo-name">bsn medical logo</span>
+      </div>
+      <div class="marca-logo" title="Logo Abbott">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1LtxfiUO6Ubn3X6E9mgs8VTFq64w7Ku0b"
+               alt="Logo Abbott" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Logo Abbott</span>
+        </div>
+        <span class="marca-logo-name">Logo Abbott</span>
+      </div>
+      <div class="marca-logo" title="images (1)">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1d40dUqWbjNBTw-kKkTho14b3w-5faNRV"
+               alt="images (1)" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">images (1)</span>
+        </div>
+        <span class="marca-logo-name">images (1)</span>
+      </div>
+      <div class="marca-logo" title="Kimberly Clark">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/12fkPxZrEVYsjNKxpjgKbfmviEIS2Z06M"
+               alt="Kimberly Clark" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Kimberly Clark</span>
+        </div>
+        <span class="marca-logo-name">Kimberly Clark</span>
+      </div>
+      <div class="marca-logo" title="logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1qvYcPiB6cbaYBZbeppBEAgaUpBI8YmaG"
+               alt="logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">logo</span>
+        </div>
+        <span class="marca-logo-name">logo</span>
+      </div>
+      <div class="marca-logo" title="unilever logo 2004">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1bp5jTv7agMuqbwqGtKFovmHQ7VBY181a"
+               alt="unilever logo 2004" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">unilever logo 2004</span>
+        </div>
+        <span class="marca-logo-name">unilever logo 2004</span>
+      </div>
+      <div class="marca-logo" title="Colgate Logo 2004">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1VcVgMveyP6NS3ToU92uMTszpulIVd-pP"
+               alt="Colgate Logo 2004" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Colgate Logo 2004</span>
+        </div>
+        <span class="marca-logo-name">Colgate Logo 2004</span>
+      </div>
+      <div class="marca-logo" title="black decker logo png transparent">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1njE2e0xDT1lIgrwPhR9Qv_geiZUJhCbs"
+               alt="black decker logo png transparent" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">black decker logo png transparent</span>
+        </div>
+        <span class="marca-logo-name">black decker logo png transparent</span>
+      </div>
+      <div class="marca-logo" title="Cementos Argos logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1Zma8lA3gdPNqbbc9_bTT5JXhCleoI6Sz"
+               alt="Cementos Argos logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Cementos Argos logo</span>
+        </div>
+        <span class="marca-logo-name">Cementos Argos logo</span>
+      </div>
+      <div class="marca-logo" title="huawei logo icon 170010">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1FFAitwujhAlkS4gp_RRxPuWrKrTLNu-6"
+               alt="huawei logo icon 170010" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">huawei logo icon 170010</span>
+        </div>
+        <span class="marca-logo-name">huawei logo icon 170010</span>
+      </div>
+      <div class="marca-logo" title="New Honor logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1K0RUA5yIzvqutG5xqXTGphEGSPnXDhRX"
+               alt="New Honor logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">New Honor logo</span>
+        </div>
+        <span class="marca-logo-name">New Honor logo</span>
+      </div>
+      <div class="marca-logo" title="realme logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/14a9mMY9IOypcDkcBJrl3PalpNIMEynCM"
+               alt="realme logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">realme logo</span>
+        </div>
+        <span class="marca-logo-name">realme logo</span>
+      </div>
+      <div class="marca-logo" title="Japan Tabaco">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/19uSWSZ_pdv4lwSsmiy7UNbq21jpCBnhN"
+               alt="Japan Tabaco" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Japan Tabaco</span>
+        </div>
+        <span class="marca-logo-name">Japan Tabaco</span>
+      </div>
+      <div class="marca-logo" title="Pernod Ricard Logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1U7TOJoaxTmhUDt_Z7DIUjgZk74IyVNhS"
+               alt="Pernod Ricard Logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Pernod Ricard Logo</span>
+        </div>
+        <span class="marca-logo-name">Pernod Ricard Logo</span>
+      </div>
+      <div class="marca-logo" title="American Tabaco">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1aRBOUHSgXkY41en7k2VtREctiUrM_0xv"
+               alt="American Tabaco" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">American Tabaco</span>
+        </div>
+        <span class="marca-logo-name">American Tabaco</span>
+      </div>
+      <div class="marca-logo" title="PHILIP MORRIS">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1Lbh0zotTr04YT323HsLiNBpa0iIl4nrv"
+               alt="PHILIP MORRIS" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">PHILIP MORRIS</span>
+        </div>
+        <span class="marca-logo-name">PHILIP MORRIS</span>
+      </div>
+      <div class="marca-logo" title="LOGOS POSTOBON FINAL 01">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1HMRB5IxSMh0iGodAWTPeszwBKthyrI_D"
+               alt="LOGOS POSTOBON FINAL 01" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">LOGOS POSTOBON FINAL 01</span>
+        </div>
+        <span class="marca-logo-name">LOGOS POSTOBON FINAL 01</span>
+      </div>
+      <div class="marca-logo" title="central cervecera de colombia logo">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1bsvoFXKv2liyI6O4vTSnkT_ERWTV6BO-"
+               alt="central cervecera de colombia logo" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">central cervecera de colombia logo</span>
+        </div>
+        <span class="marca-logo-name">central cervecera de colombia logo</span>
+      </div>
+      <div class="marca-logo" title="ADM">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/183P4qSLX7W1Iiy4PKIIQ9tT_ZkM4yRvo"
+               alt="ADM" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">ADM</span>
+        </div>
+        <span class="marca-logo-name">ADM</span>
+      </div>
+      <div class="marca-logo" title="Alpina">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1jQu6vkekYJybyd-nILzCz3__IT_jvMKs"
+               alt="Alpina" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Alpina</span>
+        </div>
+        <span class="marca-logo-name">Alpina</span>
+      </div>
+      <div class="marca-logo" title="Upfield">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1dLU02qxB9EFz4QMpvd_D4z8PVdnP9Ddz"
+               alt="Upfield" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Upfield</span>
+        </div>
+        <span class="marca-logo-name">Upfield</span>
+      </div>
+      <div class="marca-logo" title="Barilla Logo 2000">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1DAe21RbF0dTswiYtIh_FXydSlnNfcY2U"
+               alt="Barilla Logo 2000" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Barilla Logo 2000</span>
+        </div>
+        <span class="marca-logo-name">Barilla Logo 2000</span>
+      </div>
+      <div class="marca-logo" title="logo soberana">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1wKSr9UEn1crO-7pY7A6nKx3rww5bu23z"
+               alt="logo soberana" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">logo soberana</span>
+        </div>
+        <span class="marca-logo-name">logo soberana</span>
+      </div>
+      <div class="marca-logo" title="Huevos Kikes">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/147VUCV0hGCIguehdtDShfvXVxSNmC_ZE"
+               alt="Huevos Kikes" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Huevos Kikes</span>
+        </div>
+        <span class="marca-logo-name">Huevos Kikes</span>
+      </div>
+      <div class="marca-logo" title="Team Foods">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/15i7T9EvnynwiLCw2f_WcayoUfq_yiGza"
+               alt="Team Foods" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Team Foods</span>
+        </div>
+        <span class="marca-logo-name">Team Foods</span>
+      </div>
+      <div class="marca-logo" title="Alimentos Carnicos">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1wPNMJqhMSnn3KpZeYGrQfoNjCcmCWutE"
+               alt="Alimentos Carnicos" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Alimentos Carnicos</span>
+        </div>
+        <span class="marca-logo-name">Alimentos Carnicos</span>
+      </div>
+      <div class="marca-logo" title="Eficacia">
+        <div class="marca-logo-bg">
+          <img class="marca-logo-img"
+               src="https://lh3.googleusercontent.com/d/1tYw8DEeLSXY31bJMIvXtxUFJUaitoFe0"
+               alt="Eficacia" loading="lazy" width="90" height="40"
+               referrerpolicy="no-referrer"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="marca-logo-fallback" style="display:none">Eficacia</span>
+        </div>
+        <span class="marca-logo-name">Eficacia</span>
+      </div>
     </div>
   </div>
 </section>
@@ -3236,15 +3752,18 @@ document.querySelectorAll('.ca,.svc,.valor-item,.step,.ring-item,.prop-bullet,.i
 
   function goTo(n){
     const prev = current;
+    const oldNext = (current + 1) % total;
     slides[prev].classList.remove('active');
     slides[prev].classList.add('prev');
+    slides[oldNext].classList.remove('next');
     dots[prev] && dots[prev].classList.remove('active');
     current = (n + total) % total;
+    const newNext = (current + 1) % total;
     slides[current].classList.add('active');
-    slides[current].classList.remove('prev');
+    slides[current].classList.remove('prev','next');
+    slides[newNext].classList.add('next');
     dots[current] && dots[current].classList.add('active');
     if(counter) counter.textContent = current + 1;
-    // clear prev class after transition
     setTimeout(()=>{ slides[prev].classList.remove('prev'); }, 750);
   }
 
@@ -3264,6 +3783,7 @@ document.querySelectorAll('.ca,.svc,.valor-item,.step,.ring-item,.prop-bullet,.i
   }
 
   // Auto-advance every 5s
+  slides[(current+1)%total].classList.add('next');
   let timer = setInterval(() => goTo(current+1), 5000);
   const carousel = document.querySelector('.gal-carousel-wrap');
   if(carousel){
