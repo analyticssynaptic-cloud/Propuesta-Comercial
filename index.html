@@ -5,6 +5,7 @@ html{background:#17100f!important;margin:0!important;padding:0!important}
 body{background:#17100f!important;margin:0!important;padding:0!important}
 </style>
 <meta charset="UTF-8"/>
+<meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Propuesta Comercial MFD Marketing & Eventos — Grupo PQP</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1521,7 +1522,7 @@ section{
 
 .gal-carousel{
   position:relative;width:100%;
-  height:clamp(240px,30vw,420px);
+  height:clamp(320px,45vw,560px);
   overflow:hidden;
 }
 .gal-slide{
@@ -1541,7 +1542,8 @@ section{
 }
 .gal-slide img{
   width:100%;height:100%;
-  object-fit:cover;display:block;
+  object-fit:contain;display:block;
+  background:#111;
 }
 .gal-slide-overlay{
   position:absolute;inset:0;
@@ -1702,6 +1704,10 @@ section:last-of-type{margin-bottom:0}
 footer{background:#17100f !important;margin:0}
 body::after{display:none !important}
 
+
+/* 98 dots fix */
+#galDots { flex-wrap:wrap; justify-content:center; max-width:90%; left:50%; transform:translateX(-50%); gap:5px; bottom:10px; }
+#galDots .gal-dot { width:5px; height:5px; }
 </style>
 </head>
 <body style="background:#17100f;margin:0;padding:0">
@@ -1719,7 +1725,7 @@ body::after{display:none !important}
 <!-- HERO -->
 <section id="inicio" style="padding:0">
 <div id="hero">
-<img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1800&h=950" alt="Actividad comercial ventas marketing" loading="eager" width="1800" height="950" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0;opacity:0.14;pointer-events:none">
+<img src="https://images.pexels.com/photos/1486861/pexels-photo-1486861.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1800&h=950" alt="Edificio corporativo empresarial" loading="eager" width="1800" height="950" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0;opacity:0.14;pointer-events:none">
   <div class="hero-orb hero-orb-1"></div>
   <div class="hero-orb hero-orb-2"></div>
   <div class="hero-inner">
@@ -2170,44 +2176,399 @@ body::after{display:none !important}
 
 <div class="gal-carousel-wrap">
   <div class="gal-carousel" id="galCarousel">
-
   <div class="gal-slide active" data-index="0">
-    <img src="https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=680"
-         alt="Activación PDV" loading="lazy" width="1200" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Activación en PDV</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1zTBnVit8o8DSqTM3y3pFV-qYCF1e4WZJ" alt="Fotografía 1" loading="eager" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 1</span></div>
   </div>
   <div class="gal-slide" data-index="1">
-    <img src="https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=680"
-         alt="Impulso en tienda" loading="lazy" width="800" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Impulso en tienda</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1UK_fjoSvITdMuA4TsFX3yORf69AkIO7X" alt="Fotografía 2" loading="eager" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 2</span></div>
   </div>
   <div class="gal-slide" data-index="2">
-    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=680"
-         alt="Equipo en campo" loading="lazy" width="800" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Equipo en campo</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1D7CzrK4-NqCILLr_bWEbi_kBkfdCviqp" alt="Fotografía 3" loading="eager" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 3</span></div>
   </div>
   <div class="gal-slide" data-index="3">
-    <img src="https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=680"
-         alt="Merchandising" loading="lazy" width="800" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Merchandising</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1n7oSJr1tnPPbp4yUOUlwr4y6pez8GT7c" alt="Fotografía 4" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 4</span></div>
   </div>
   <div class="gal-slide" data-index="4">
-    <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=680"
-         alt="Degustación" loading="lazy" width="800" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Degustación</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1Ism29hFH9-9co3BdtGn2vBlJGhsOL-Op" alt="Fotografía 5" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 5</span></div>
   </div>
   <div class="gal-slide" data-index="5">
-    <img src="https://images.pexels.com/photos/1566412/pexels-photo-1566412.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1000&h=680"
-         alt="Supervisión de campo" loading="lazy" width="1200" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Supervisión de campo</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1ZyYpBPEulYvWwd6mWXomGefh8pIlSX6x" alt="Fotografía 6" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 6</span></div>
   </div>
   <div class="gal-slide" data-index="6">
-    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=680"
-         alt="Canal tradicional" loading="lazy" width="1200" height="680" decoding="async">
-    <div class="gal-slide-overlay"><span class="gal-slide-label">Canal tradicional</span></div>
+    <img src="https://lh3.googleusercontent.com/d/1KVZDabonOiU48Yiov7obQYAQt1G9Wxez" alt="Fotografía 7" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 7</span></div>
   </div>
+  <div class="gal-slide" data-index="7">
+    <img src="https://lh3.googleusercontent.com/d/1uzHzz-v-K_Kh3BcuBz-eV60HURp_FeHX" alt="Fotografía 8" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 8</span></div>
   </div>
-
+  <div class="gal-slide" data-index="8">
+    <img src="https://lh3.googleusercontent.com/d/1_V150Y3I9ZjVutZTEDvjwFNkdDT7oh3m" alt="Fotografía 9" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 9</span></div>
+  </div>
+  <div class="gal-slide" data-index="9">
+    <img src="https://lh3.googleusercontent.com/d/1KVNuE4ABKn5ZWs4EEGqafNpDhq_JwBRf" alt="Fotografía 10" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 10</span></div>
+  </div>
+  <div class="gal-slide" data-index="10">
+    <img src="https://lh3.googleusercontent.com/d/1klreMzQiJl_6khO6JrEJwg0AqFY5q09r" alt="Fotografía 11" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 11</span></div>
+  </div>
+  <div class="gal-slide" data-index="11">
+    <img src="https://lh3.googleusercontent.com/d/1UDNNRxmC-PRX6y_d1X4fUAJ4OC04do18" alt="Fotografía 12" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 12</span></div>
+  </div>
+  <div class="gal-slide" data-index="12">
+    <img src="https://lh3.googleusercontent.com/d/1FFk_VlJ5uWtiZrk_a25dQEmcukv9WqVY" alt="Fotografía 13" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 13</span></div>
+  </div>
+  <div class="gal-slide" data-index="13">
+    <img src="https://lh3.googleusercontent.com/d/1w0kWxXniIIU97ZDLi6oAkyAoWHN_veup" alt="Fotografía 14" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 14</span></div>
+  </div>
+  <div class="gal-slide" data-index="14">
+    <img src="https://lh3.googleusercontent.com/d/1LVk7Fi_zfY3k_WqKnahEibL8o2L78m7v" alt="Fotografía 15" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 15</span></div>
+  </div>
+  <div class="gal-slide" data-index="15">
+    <img src="https://lh3.googleusercontent.com/d/1empEiGJVvgNpOFwGz5B3eiv7n3imzPBo" alt="Fotografía 16" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 16</span></div>
+  </div>
+  <div class="gal-slide" data-index="16">
+    <img src="https://lh3.googleusercontent.com/d/1fU5ezh2d6E6w2km551lsUcSVt4sWq9pg" alt="Fotografía 17" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 17</span></div>
+  </div>
+  <div class="gal-slide" data-index="17">
+    <img src="https://lh3.googleusercontent.com/d/1flwTyxt0C9Cgth4vDMOsYIIZMvg8gv4K" alt="Fotografía 18" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 18</span></div>
+  </div>
+  <div class="gal-slide" data-index="18">
+    <img src="https://lh3.googleusercontent.com/d/1R7W4M67YxO4aeJVWFjA0ge_l9jQUfZqU" alt="Fotografía 19" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 19</span></div>
+  </div>
+  <div class="gal-slide" data-index="19">
+    <img src="https://lh3.googleusercontent.com/d/1Bs8onD-VlGp3cQjKqaeCDKnZAInRpCkT" alt="Fotografía 20" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 20</span></div>
+  </div>
+  <div class="gal-slide" data-index="20">
+    <img src="https://lh3.googleusercontent.com/d/1NzA9cjKxZgK70aqYUDzolI6C-7m9nWJN" alt="Fotografía 21" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 21</span></div>
+  </div>
+  <div class="gal-slide" data-index="21">
+    <img src="https://lh3.googleusercontent.com/d/1SyI29KhqKd5HcgFEnvnrSfP5YBJI5idp" alt="Fotografía 22" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 22</span></div>
+  </div>
+  <div class="gal-slide" data-index="22">
+    <img src="https://lh3.googleusercontent.com/d/1oKkRP7PSuZVwAGQUwu6h-Zo0cjH2K0y7" alt="Fotografía 23" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 23</span></div>
+  </div>
+  <div class="gal-slide" data-index="23">
+    <img src="https://lh3.googleusercontent.com/d/1KV2SobQIBTFEYHNO92YLVDYOSFUnEb-c" alt="Fotografía 24" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 24</span></div>
+  </div>
+  <div class="gal-slide" data-index="24">
+    <img src="https://lh3.googleusercontent.com/d/1HWWuFPXg7Etr7kCqRZJcT7hZllxRCnb9" alt="Fotografía 25" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 25</span></div>
+  </div>
+  <div class="gal-slide" data-index="25">
+    <img src="https://lh3.googleusercontent.com/d/11tG6g_iHY5q-drAPiVIJ4MxQXrSHodlH" alt="Fotografía 26" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 26</span></div>
+  </div>
+  <div class="gal-slide" data-index="26">
+    <img src="https://lh3.googleusercontent.com/d/1kT7Gm-t_NQXIiX-EKOIxmcIZBo9_mdsX" alt="Fotografía 27" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 27</span></div>
+  </div>
+  <div class="gal-slide" data-index="27">
+    <img src="https://lh3.googleusercontent.com/d/1QyJB5ufmfrY8XEjp221aowTzNUgQbVhi" alt="Fotografía 28" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 28</span></div>
+  </div>
+  <div class="gal-slide" data-index="28">
+    <img src="https://lh3.googleusercontent.com/d/1hJjtIv5s-cVMCF5Pt4Hna3y0rpbllqyG" alt="Fotografía 29" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 29</span></div>
+  </div>
+  <div class="gal-slide" data-index="29">
+    <img src="https://lh3.googleusercontent.com/d/15sdSZLu0EflJjECCQKClALtUuwPtGzao" alt="Fotografía 30" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 30</span></div>
+  </div>
+  <div class="gal-slide" data-index="30">
+    <img src="https://lh3.googleusercontent.com/d/19X65wTQ18AZcwXsPTlAq8vTU5PYpjl5V" alt="Fotografía 31" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 31</span></div>
+  </div>
+  <div class="gal-slide" data-index="31">
+    <img src="https://lh3.googleusercontent.com/d/1sXigfbe2KTUvHtAtUWupKWGEifc79wSb" alt="Fotografía 32" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 32</span></div>
+  </div>
+  <div class="gal-slide" data-index="32">
+    <img src="https://lh3.googleusercontent.com/d/1Woucm2kYo3tPAOSmCLLBr2UVhJqEi1nO" alt="Fotografía 33" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 33</span></div>
+  </div>
+  <div class="gal-slide" data-index="33">
+    <img src="https://lh3.googleusercontent.com/d/1KXEFKCikxOlYnPirfo1d1tscQq-15QoH" alt="Fotografía 34" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 34</span></div>
+  </div>
+  <div class="gal-slide" data-index="34">
+    <img src="https://lh3.googleusercontent.com/d/1RvvQD2oHTUQ8PeZ_eDTnWBACZHz8BPyG" alt="Fotografía 35" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 35</span></div>
+  </div>
+  <div class="gal-slide" data-index="35">
+    <img src="https://lh3.googleusercontent.com/d/1u8xANK77fa7GpoHCXRl6F2J2MRtG7xEn" alt="Fotografía 36" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 36</span></div>
+  </div>
+  <div class="gal-slide" data-index="36">
+    <img src="https://lh3.googleusercontent.com/d/1kwjmuRgE4gJmNixe6RTjnLEv_K7Cc9DA" alt="Fotografía 37" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 37</span></div>
+  </div>
+  <div class="gal-slide" data-index="37">
+    <img src="https://lh3.googleusercontent.com/d/1taJSN3DQ9JAr7qjSYafxQyCYITi98dhF" alt="Fotografía 38" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 38</span></div>
+  </div>
+  <div class="gal-slide" data-index="38">
+    <img src="https://lh3.googleusercontent.com/d/1JeYt8svejS4F82bw1fUOyNmJaESgGe5R" alt="Fotografía 39" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 39</span></div>
+  </div>
+  <div class="gal-slide" data-index="39">
+    <img src="https://lh3.googleusercontent.com/d/11vDYgQyFMHV7GT4tX42sdgTZhSG2pxco" alt="Fotografía 40" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 40</span></div>
+  </div>
+  <div class="gal-slide" data-index="40">
+    <img src="https://lh3.googleusercontent.com/d/1nluXIqVMJq45T57ZTz1V01BRKrjorQC7" alt="Fotografía 41" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 41</span></div>
+  </div>
+  <div class="gal-slide" data-index="41">
+    <img src="https://lh3.googleusercontent.com/d/1fg_4QAkOGgmjb6E-bEFaTI91aLpHXZ6c" alt="Fotografía 42" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 42</span></div>
+  </div>
+  <div class="gal-slide" data-index="42">
+    <img src="https://lh3.googleusercontent.com/d/1tLgR1JJRKXNYjs-1uy0b1jteJxDzUWkw" alt="Fotografía 43" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 43</span></div>
+  </div>
+  <div class="gal-slide" data-index="43">
+    <img src="https://lh3.googleusercontent.com/d/1GZjweiSANEy7NCJtsFvisRyWKrG8riFU" alt="Fotografía 44" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 44</span></div>
+  </div>
+  <div class="gal-slide" data-index="44">
+    <img src="https://lh3.googleusercontent.com/d/1IowoXrCmnIPecaXkUayS996nvsZVaVFC" alt="Fotografía 45" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 45</span></div>
+  </div>
+  <div class="gal-slide" data-index="45">
+    <img src="https://lh3.googleusercontent.com/d/1DC9kiJwyfguo1EqqEHQiVcAgxiEKY2aC" alt="Fotografía 46" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 46</span></div>
+  </div>
+  <div class="gal-slide" data-index="46">
+    <img src="https://lh3.googleusercontent.com/d/1GnLtv-2dhaWyG-bKhLZ2EK7L8OsEzZa2" alt="Fotografía 47" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 47</span></div>
+  </div>
+  <div class="gal-slide" data-index="47">
+    <img src="https://lh3.googleusercontent.com/d/17VuNO2YTU098O-Ss5uFVsUB7GFgkFNhD" alt="Fotografía 48" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 48</span></div>
+  </div>
+  <div class="gal-slide" data-index="48">
+    <img src="https://lh3.googleusercontent.com/d/1XEanBQhySSuURv2YayrjVpfMPIPiHo_1" alt="Fotografía 49" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 49</span></div>
+  </div>
+  <div class="gal-slide" data-index="49">
+    <img src="https://lh3.googleusercontent.com/d/12G5ToS7rQigjCQy4LQbYd8mVqmhBhkli" alt="Fotografía 50" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 50</span></div>
+  </div>
+  <div class="gal-slide" data-index="50">
+    <img src="https://lh3.googleusercontent.com/d/1D53KDqcxoz_Vt8-hCnioVcoWMQyswvUN" alt="Fotografía 51" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 51</span></div>
+  </div>
+  <div class="gal-slide" data-index="51">
+    <img src="https://lh3.googleusercontent.com/d/1qLc8kq-FF0HxmD8-ltJwZrRlteQHkJ73" alt="Fotografía 52" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 52</span></div>
+  </div>
+  <div class="gal-slide" data-index="52">
+    <img src="https://lh3.googleusercontent.com/d/1JeoIuuYRlpVEvJ-eEj4pmbVVP53Uw73m" alt="Fotografía 53" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 53</span></div>
+  </div>
+  <div class="gal-slide" data-index="53">
+    <img src="https://lh3.googleusercontent.com/d/1XKwo5Hx_DR3Y8_xmb1UeRMG_jFqXHf9g" alt="Fotografía 54" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 54</span></div>
+  </div>
+  <div class="gal-slide" data-index="54">
+    <img src="https://lh3.googleusercontent.com/d/1cPQvokyJxYQANDEU4zPfk1Nk2VKzARn9" alt="Fotografía 55" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 55</span></div>
+  </div>
+  <div class="gal-slide" data-index="55">
+    <img src="https://lh3.googleusercontent.com/d/1FbczdWk6v9iMLRTR7Z-zll-gK9lYQp8c" alt="Fotografía 56" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 56</span></div>
+  </div>
+  <div class="gal-slide" data-index="56">
+    <img src="https://lh3.googleusercontent.com/d/1OdPGc_op11312FOn7fMNYnhvX5yCCAXV" alt="Fotografía 57" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 57</span></div>
+  </div>
+  <div class="gal-slide" data-index="57">
+    <img src="https://lh3.googleusercontent.com/d/1_hFhayTl2uhfveCajKxQDroihLK3mDgl" alt="Fotografía 58" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 58</span></div>
+  </div>
+  <div class="gal-slide" data-index="58">
+    <img src="https://lh3.googleusercontent.com/d/1sarSbtMQNOyA3x4_G432LhKgrMt7NArk" alt="Fotografía 59" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 59</span></div>
+  </div>
+  <div class="gal-slide" data-index="59">
+    <img src="https://lh3.googleusercontent.com/d/1yX4SF-KkZkiUtB4EdorKxiH0oRhcsRrb" alt="Fotografía 60" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 60</span></div>
+  </div>
+  <div class="gal-slide" data-index="60">
+    <img src="https://lh3.googleusercontent.com/d/1zc6iyxC8uEP_t-gf4pkng6JBt0xBDHoE" alt="Fotografía 61" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 61</span></div>
+  </div>
+  <div class="gal-slide" data-index="61">
+    <img src="https://lh3.googleusercontent.com/d/1sKoXOx5-M_fiS8gJ_dFAWBAmI8s_3GiH" alt="Fotografía 62" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 62</span></div>
+  </div>
+  <div class="gal-slide" data-index="62">
+    <img src="https://lh3.googleusercontent.com/d/1LiOiuMvnmM4hfkkTDgsnDEdkWXXCdkHf" alt="Fotografía 63" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 63</span></div>
+  </div>
+  <div class="gal-slide" data-index="63">
+    <img src="https://lh3.googleusercontent.com/d/1wjhUhRfApspcT9KSNiFSyjJg-bI-ZyQt" alt="Fotografía 64" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 64</span></div>
+  </div>
+  <div class="gal-slide" data-index="64">
+    <img src="https://lh3.googleusercontent.com/d/1OvQIXeXJKzX1Sn--HffYfiAPZl4MqOgD" alt="Fotografía 65" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 65</span></div>
+  </div>
+  <div class="gal-slide" data-index="65">
+    <img src="https://lh3.googleusercontent.com/d/1UlEfSgqmP1zd74uiP2lxRI6l7S7tAyKM" alt="Fotografía 66" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 66</span></div>
+  </div>
+  <div class="gal-slide" data-index="66">
+    <img src="https://lh3.googleusercontent.com/d/175cQ0atK_IUTff8Y1ia6dR8sfoCs3-2f" alt="Fotografía 67" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 67</span></div>
+  </div>
+  <div class="gal-slide" data-index="67">
+    <img src="https://lh3.googleusercontent.com/d/1L4trLFTBPj4hwjl14HsxJvPimg1VmQhb" alt="Fotografía 68" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 68</span></div>
+  </div>
+  <div class="gal-slide" data-index="68">
+    <img src="https://lh3.googleusercontent.com/d/10WGSFz7dsN1yilsZFfoKMSB2BL7FA8h6" alt="Fotografía 69" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 69</span></div>
+  </div>
+  <div class="gal-slide" data-index="69">
+    <img src="https://lh3.googleusercontent.com/d/1Ss8BwIYj0iWFeBR11VSBgKKZoty1HiNK" alt="Fotografía 70" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 70</span></div>
+  </div>
+  <div class="gal-slide" data-index="70">
+    <img src="https://lh3.googleusercontent.com/d/1MBf0TbqxJz_TzXvpAID0Rio8qqZUuFnr" alt="Fotografía 71" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 71</span></div>
+  </div>
+  <div class="gal-slide" data-index="71">
+    <img src="https://lh3.googleusercontent.com/d/1PCtJEsAhGKgm71G3N_wqaDoKgf4MMGg5" alt="Fotografía 72" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 72</span></div>
+  </div>
+  <div class="gal-slide" data-index="72">
+    <img src="https://lh3.googleusercontent.com/d/10la2ybp3tvpFNz8ZehAcsvYiSBxzj6NB" alt="Fotografía 73" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 73</span></div>
+  </div>
+  <div class="gal-slide" data-index="73">
+    <img src="https://lh3.googleusercontent.com/d/1h_qxz-K6VQ-Jo1Rj-HwfumD9E5nWpMc7" alt="Fotografía 74" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 74</span></div>
+  </div>
+  <div class="gal-slide" data-index="74">
+    <img src="https://lh3.googleusercontent.com/d/1bf6eiRgtXUgZXLM2Udnv5lt2e6FmxVh-" alt="Fotografía 75" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 75</span></div>
+  </div>
+  <div class="gal-slide" data-index="75">
+    <img src="https://lh3.googleusercontent.com/d/1aKTk7g2YIs21eL6ilFuRfeb3l1lRiqOD" alt="Fotografía 76" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 76</span></div>
+  </div>
+  <div class="gal-slide" data-index="76">
+    <img src="https://lh3.googleusercontent.com/d/11O034gvnM6PyqmG5umxHdc2Y_iyBcHev" alt="Fotografía 77" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 77</span></div>
+  </div>
+  <div class="gal-slide" data-index="77">
+    <img src="https://lh3.googleusercontent.com/d/1ab5BUtrDGWGM9jw05yoeVxcHdNiYzoVd" alt="Fotografía 78" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 78</span></div>
+  </div>
+  <div class="gal-slide" data-index="78">
+    <img src="https://lh3.googleusercontent.com/d/1vDN5bD7eOdDBvL5KYPd7CQNDYn4xacbF" alt="Fotografía 79" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 79</span></div>
+  </div>
+  <div class="gal-slide" data-index="79">
+    <img src="https://lh3.googleusercontent.com/d/1liKm7-Niz8jZop-8WLMWaN1wjT6x8mCr" alt="Fotografía 80" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 80</span></div>
+  </div>
+  <div class="gal-slide" data-index="80">
+    <img src="https://lh3.googleusercontent.com/d/1n-YDt3Wx6RNZPbQGwBwWAeSQoDoQ8z67" alt="Fotografía 81" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 81</span></div>
+  </div>
+  <div class="gal-slide" data-index="81">
+    <img src="https://lh3.googleusercontent.com/d/1byGFr_Ilafitib5L6rM5qGNkinc9vBv_" alt="Fotografía 82" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 82</span></div>
+  </div>
+  <div class="gal-slide" data-index="82">
+    <img src="https://lh3.googleusercontent.com/d/1Bkx6dJ_87mwdSwugZHPlqXCBj0yXjZqY" alt="Fotografía 83" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 83</span></div>
+  </div>
+  <div class="gal-slide" data-index="83">
+    <img src="https://lh3.googleusercontent.com/d/1pkjxVFFHPZyxsPDF1cPXk4HHeZFzhaiq" alt="Fotografía 84" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 84</span></div>
+  </div>
+  <div class="gal-slide" data-index="84">
+    <img src="https://lh3.googleusercontent.com/d/1DoXba2J8KrJrCx3X_z-g1uvFaDELwDy3" alt="Fotografía 85" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 85</span></div>
+  </div>
+  <div class="gal-slide" data-index="85">
+    <img src="https://lh3.googleusercontent.com/d/19RN0LI10RKdY069eIPS10eAqV16h604z" alt="Fotografía 86" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 86</span></div>
+  </div>
+  <div class="gal-slide" data-index="86">
+    <img src="https://lh3.googleusercontent.com/d/1decosTsx70lmxJsqhH7QdM4clvSQEnQA" alt="Fotografía 87" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 87</span></div>
+  </div>
+  <div class="gal-slide" data-index="87">
+    <img src="https://lh3.googleusercontent.com/d/16d2e4qU41_QZKQuJorycceK1DGPWkNpr" alt="Fotografía 88" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 88</span></div>
+  </div>
+  <div class="gal-slide" data-index="88">
+    <img src="https://lh3.googleusercontent.com/d/1F1ZQiz06_2CkR2fpEnqk-t5uUjuZDrmQ" alt="Fotografía 89" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 89</span></div>
+  </div>
+  <div class="gal-slide" data-index="89">
+    <img src="https://lh3.googleusercontent.com/d/12a-AeePr0VLk50ijgir8K0NHje7kWyZD" alt="Fotografía 90" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 90</span></div>
+  </div>
+  <div class="gal-slide" data-index="90">
+    <img src="https://lh3.googleusercontent.com/d/1v9vaREWFcyxQKyABehq14UkN4c9exqOm" alt="Fotografía 91" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 91</span></div>
+  </div>
+  <div class="gal-slide" data-index="91">
+    <img src="https://lh3.googleusercontent.com/d/10-Or_66TZ2QmMm-47299XPzWzIMt1Qgy" alt="Fotografía 92" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 92</span></div>
+  </div>
+  <div class="gal-slide" data-index="92">
+    <img src="https://lh3.googleusercontent.com/d/1N4yEdaW04qpd0x5-c4bUGkW2NJzGA83p" alt="Fotografía 93" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 93</span></div>
+  </div>
+  <div class="gal-slide" data-index="93">
+    <img src="https://lh3.googleusercontent.com/d/1HvxcGNLfK5BHBGDHZrqaB6QIYEumOiFk" alt="Fotografía 94" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 94</span></div>
+  </div>
+  <div class="gal-slide" data-index="94">
+    <img src="https://lh3.googleusercontent.com/d/1nDZW68JZTrMVYlwfOWFCxxVR0WbieOnI" alt="Fotografía 95" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 95</span></div>
+  </div>
+  <div class="gal-slide" data-index="95">
+    <img src="https://lh3.googleusercontent.com/d/1-2lr5fJM8x2CHxpl2eYUmWpJ4ZcSbzJV" alt="Fotografía 96" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 96</span></div>
+  </div>
+  <div class="gal-slide" data-index="96">
+    <img src="https://lh3.googleusercontent.com/d/1AZ-AJohwJvGO0_bbQKNGWCUvsKFpX1Dy" alt="Fotografía 97" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 97</span></div>
+  </div>
+  <div class="gal-slide" data-index="97">
+    <img src="https://lh3.googleusercontent.com/d/1NEXel9MzxvymXgEOTDc7KwLsNQizVe14" alt="Fotografía 98" loading="lazy" width="1200" height="680" decoding="async" referrerpolicy="no-referrer">
+    <div class="gal-slide-overlay"><span class="gal-slide-label">Galería · 98</span></div>
+  </div>
+  
   <button class="gal-btn gal-prev" id="galPrev" aria-label="Imagen anterior">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
   </button>
@@ -2216,11 +2577,11 @@ body::after{display:none !important}
   </button>
 
   <div class="gal-counter">
-    <span id="galCurrent">1</span><span class="gal-sep">/</span><span>7</span>
+    <span id="galCurrent">1</span><span class="gal-sep">/</span><span>98</span>
   </div>
 
   <div class="gal-dots" id="galDots">
-    <button class="gal-dot active" data-dot="0" aria-label="Ir a imagen 1"></button><button class="gal-dot" data-dot="1" aria-label="Ir a imagen 2"></button><button class="gal-dot" data-dot="2" aria-label="Ir a imagen 3"></button><button class="gal-dot" data-dot="3" aria-label="Ir a imagen 4"></button><button class="gal-dot" data-dot="4" aria-label="Ir a imagen 5"></button><button class="gal-dot" data-dot="5" aria-label="Ir a imagen 6"></button><button class="gal-dot" data-dot="6" aria-label="Ir a imagen 7"></button>
+    <button class="gal-dot active" data-dot="0" aria-label="Ir a imagen 1"></button><button class="gal-dot" data-dot="1" aria-label="Ir a imagen 2"></button><button class="gal-dot" data-dot="2" aria-label="Ir a imagen 3"></button><button class="gal-dot" data-dot="3" aria-label="Ir a imagen 4"></button><button class="gal-dot" data-dot="4" aria-label="Ir a imagen 5"></button><button class="gal-dot" data-dot="5" aria-label="Ir a imagen 6"></button><button class="gal-dot" data-dot="6" aria-label="Ir a imagen 7"></button><button class="gal-dot" data-dot="7" aria-label="Ir a imagen 8"></button><button class="gal-dot" data-dot="8" aria-label="Ir a imagen 9"></button><button class="gal-dot" data-dot="9" aria-label="Ir a imagen 10"></button><button class="gal-dot" data-dot="10" aria-label="Ir a imagen 11"></button><button class="gal-dot" data-dot="11" aria-label="Ir a imagen 12"></button><button class="gal-dot" data-dot="12" aria-label="Ir a imagen 13"></button><button class="gal-dot" data-dot="13" aria-label="Ir a imagen 14"></button><button class="gal-dot" data-dot="14" aria-label="Ir a imagen 15"></button><button class="gal-dot" data-dot="15" aria-label="Ir a imagen 16"></button><button class="gal-dot" data-dot="16" aria-label="Ir a imagen 17"></button><button class="gal-dot" data-dot="17" aria-label="Ir a imagen 18"></button><button class="gal-dot" data-dot="18" aria-label="Ir a imagen 19"></button><button class="gal-dot" data-dot="19" aria-label="Ir a imagen 20"></button><button class="gal-dot" data-dot="20" aria-label="Ir a imagen 21"></button><button class="gal-dot" data-dot="21" aria-label="Ir a imagen 22"></button><button class="gal-dot" data-dot="22" aria-label="Ir a imagen 23"></button><button class="gal-dot" data-dot="23" aria-label="Ir a imagen 24"></button><button class="gal-dot" data-dot="24" aria-label="Ir a imagen 25"></button><button class="gal-dot" data-dot="25" aria-label="Ir a imagen 26"></button><button class="gal-dot" data-dot="26" aria-label="Ir a imagen 27"></button><button class="gal-dot" data-dot="27" aria-label="Ir a imagen 28"></button><button class="gal-dot" data-dot="28" aria-label="Ir a imagen 29"></button><button class="gal-dot" data-dot="29" aria-label="Ir a imagen 30"></button><button class="gal-dot" data-dot="30" aria-label="Ir a imagen 31"></button><button class="gal-dot" data-dot="31" aria-label="Ir a imagen 32"></button><button class="gal-dot" data-dot="32" aria-label="Ir a imagen 33"></button><button class="gal-dot" data-dot="33" aria-label="Ir a imagen 34"></button><button class="gal-dot" data-dot="34" aria-label="Ir a imagen 35"></button><button class="gal-dot" data-dot="35" aria-label="Ir a imagen 36"></button><button class="gal-dot" data-dot="36" aria-label="Ir a imagen 37"></button><button class="gal-dot" data-dot="37" aria-label="Ir a imagen 38"></button><button class="gal-dot" data-dot="38" aria-label="Ir a imagen 39"></button><button class="gal-dot" data-dot="39" aria-label="Ir a imagen 40"></button><button class="gal-dot" data-dot="40" aria-label="Ir a imagen 41"></button><button class="gal-dot" data-dot="41" aria-label="Ir a imagen 42"></button><button class="gal-dot" data-dot="42" aria-label="Ir a imagen 43"></button><button class="gal-dot" data-dot="43" aria-label="Ir a imagen 44"></button><button class="gal-dot" data-dot="44" aria-label="Ir a imagen 45"></button><button class="gal-dot" data-dot="45" aria-label="Ir a imagen 46"></button><button class="gal-dot" data-dot="46" aria-label="Ir a imagen 47"></button><button class="gal-dot" data-dot="47" aria-label="Ir a imagen 48"></button><button class="gal-dot" data-dot="48" aria-label="Ir a imagen 49"></button><button class="gal-dot" data-dot="49" aria-label="Ir a imagen 50"></button><button class="gal-dot" data-dot="50" aria-label="Ir a imagen 51"></button><button class="gal-dot" data-dot="51" aria-label="Ir a imagen 52"></button><button class="gal-dot" data-dot="52" aria-label="Ir a imagen 53"></button><button class="gal-dot" data-dot="53" aria-label="Ir a imagen 54"></button><button class="gal-dot" data-dot="54" aria-label="Ir a imagen 55"></button><button class="gal-dot" data-dot="55" aria-label="Ir a imagen 56"></button><button class="gal-dot" data-dot="56" aria-label="Ir a imagen 57"></button><button class="gal-dot" data-dot="57" aria-label="Ir a imagen 58"></button><button class="gal-dot" data-dot="58" aria-label="Ir a imagen 59"></button><button class="gal-dot" data-dot="59" aria-label="Ir a imagen 60"></button><button class="gal-dot" data-dot="60" aria-label="Ir a imagen 61"></button><button class="gal-dot" data-dot="61" aria-label="Ir a imagen 62"></button><button class="gal-dot" data-dot="62" aria-label="Ir a imagen 63"></button><button class="gal-dot" data-dot="63" aria-label="Ir a imagen 64"></button><button class="gal-dot" data-dot="64" aria-label="Ir a imagen 65"></button><button class="gal-dot" data-dot="65" aria-label="Ir a imagen 66"></button><button class="gal-dot" data-dot="66" aria-label="Ir a imagen 67"></button><button class="gal-dot" data-dot="67" aria-label="Ir a imagen 68"></button><button class="gal-dot" data-dot="68" aria-label="Ir a imagen 69"></button><button class="gal-dot" data-dot="69" aria-label="Ir a imagen 70"></button><button class="gal-dot" data-dot="70" aria-label="Ir a imagen 71"></button><button class="gal-dot" data-dot="71" aria-label="Ir a imagen 72"></button><button class="gal-dot" data-dot="72" aria-label="Ir a imagen 73"></button><button class="gal-dot" data-dot="73" aria-label="Ir a imagen 74"></button><button class="gal-dot" data-dot="74" aria-label="Ir a imagen 75"></button><button class="gal-dot" data-dot="75" aria-label="Ir a imagen 76"></button><button class="gal-dot" data-dot="76" aria-label="Ir a imagen 77"></button><button class="gal-dot" data-dot="77" aria-label="Ir a imagen 78"></button><button class="gal-dot" data-dot="78" aria-label="Ir a imagen 79"></button><button class="gal-dot" data-dot="79" aria-label="Ir a imagen 80"></button><button class="gal-dot" data-dot="80" aria-label="Ir a imagen 81"></button><button class="gal-dot" data-dot="81" aria-label="Ir a imagen 82"></button><button class="gal-dot" data-dot="82" aria-label="Ir a imagen 83"></button><button class="gal-dot" data-dot="83" aria-label="Ir a imagen 84"></button><button class="gal-dot" data-dot="84" aria-label="Ir a imagen 85"></button><button class="gal-dot" data-dot="85" aria-label="Ir a imagen 86"></button><button class="gal-dot" data-dot="86" aria-label="Ir a imagen 87"></button><button class="gal-dot" data-dot="87" aria-label="Ir a imagen 88"></button><button class="gal-dot" data-dot="88" aria-label="Ir a imagen 89"></button><button class="gal-dot" data-dot="89" aria-label="Ir a imagen 90"></button><button class="gal-dot" data-dot="90" aria-label="Ir a imagen 91"></button><button class="gal-dot" data-dot="91" aria-label="Ir a imagen 92"></button><button class="gal-dot" data-dot="92" aria-label="Ir a imagen 93"></button><button class="gal-dot" data-dot="93" aria-label="Ir a imagen 94"></button><button class="gal-dot" data-dot="94" aria-label="Ir a imagen 95"></button><button class="gal-dot" data-dot="95" aria-label="Ir a imagen 96"></button><button class="gal-dot" data-dot="96" aria-label="Ir a imagen 97"></button><button class="gal-dot" data-dot="97" aria-label="Ir a imagen 98"></button>
   </div>
 </div>
 <p class="gal-note">📷 Galería simulada — <span>reemplaza con imágenes reales del equipo</span></p>
